@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sweet Treats</title>
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <!-- Font-awesome, js, jquery-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar    -->
+    <nav class="nav-container">
+        <div class="nav-inner">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link screen-link" data-screen="home" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link screen-link" data-screen="about" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content   -->
+    <section class="content screen homescreen" id="home">
+        <div class="content-container">
+            <form id="#" method="#" action="#" onsubmit="return false">
+                <h1>Get an immediate quote of your favourite treats!</h1>
+
+                <label for="inputEventName" class="sr-ony">Event Name</label>
+                <input type="text" id="inputEventName" class="form-control" placeholder="Enter the event name">
+
+                <label for="noOfAttendees" class="sr-ony">Number of Attendees</label>
+                <input type="text" id="noOfAttendees" class="form-control" placeholder="Enter the number of attendees">
+
+                <a href="#">Pick your treats</a>
+            </form>
+        </div>
+    </section>
+
+    <section class="content screen aboutscreen" id="about">
+        <div class="content-container">
+            <h3>About</h3>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
